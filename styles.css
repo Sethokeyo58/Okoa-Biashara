@@ -2,8 +2,10 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    cursor: auto;
 }
 
+/* Start of navbar styling */
 .navbar {
     min-height: 100px;
     background-size: cover;
@@ -48,6 +50,8 @@ nav ul li a{
 nav ul li a:hover{
     color: black;
     border-bottom: 2px solid #e78f38;
+    
+    
 }
 
 nav button{
@@ -59,17 +63,20 @@ nav button{
     font-weight: 600;
     border-radius: 2rem;
     transition: .3s;
+    cursor: pointer;
 }
 
 nav button:hover{
     scale: .8;
-    background-color: #90f1ef;
+    background-color: #2dc653;
 
 }
 
 .logo {
     width: 80px;
     height: auto;
+    margin-left:1px;
+    margin-top: px;
 }
 
 a {
@@ -90,9 +97,22 @@ a {
     color: #fff;
     white-space: nowrap;
     padding-top: 1px;
+    cursor: pointer;
 }
 
 a:hover{
     color:#0a0a0a;
 
+}
+/* End of navbar styling */
+
+h1{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.beta {
+    text-align: center;
+    font-size: x-large;
+    
 }
