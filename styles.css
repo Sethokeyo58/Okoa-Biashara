@@ -1,0 +1,98 @@
+body {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.navbar {
+    min-height: 100px;
+    background-size: cover;
+    background-color: #00b4d8;
+    padding: 10px 12px;
+    max-height: 100px;
+    position: sticky;
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+    text-decoration: none;
+    list-style: none;
+    
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    margin: 0 20px;
+    list-style: none;
+}
+
+nav ul li a{
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
+
+nav ul li a:hover{
+    color: black;
+    border-bottom: 2px solid #e78f38;
+}
+
+nav button{
+    background: #e78f38;
+    border: none;
+    color: #fff;
+    padding: 12px 35px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 2rem;
+    transition: .3s;
+}
+
+nav button:hover{
+    scale: .8;
+    background-color: #90f1ef;
+
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    font-size:15px ;
+    
+}
+
+ nav a{
+    margin-top: 1px;
+    margin-bottom: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: x-large;
+    margin-left: 1px;
+    color: #fff;
+    white-space: nowrap;
+    padding-top: 1px;
+}
+
+a:hover{
+    color:#0a0a0a;
+
+}
