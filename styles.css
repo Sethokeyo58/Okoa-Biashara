@@ -3,6 +3,7 @@ body {
     box-sizing: border-box;
     font-family: sans-serif;
     cursor: auto;
+    flex: 1;
 }
 
 /* Start of navbar styling */
@@ -12,7 +13,8 @@ body {
     background-color: #00b4d8;
     padding: 6px 8px;
     max-height: 100px;
-    position: sticky;
+    position: fixed;
+    width: 100%;
     
 }
 
@@ -128,6 +130,7 @@ h1{
     background-color: beige;
     border-radius: 8px;
     list-style-type: decimal;
+    align-items:center;
 
  }
  .term {
@@ -148,3 +151,48 @@ h1{
 
 
 /*END styling terms and condions (terms.html) */
+
+/* Start Styling footer */
+footer{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    background-color: #00b4d8;
+    padding: 100px o 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    line-height: 10px;
+    font-size: 13px;
+    
+}
+
+.row {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col {
+    flex-basis: 80px;
+    padding: 10px;
+}
+
+.logo {
+    width: 80px;
+    margin-bottom: 30px;
+}
+
+.col ul li {
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 4px;
+    display: block;
+    margin: 4px;
+    justify-content: space-between;
+}
+
+.hr span{
+}
+/* End styling footer */
