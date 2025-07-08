@@ -12,8 +12,8 @@ body {
     background-size: cover;
     background-color: #00b4d8;
     padding: 6px 8px;
-    max-height: 100px;
-    position: fixed;
+    max-height: 80px;
+    position: static;
     width: 100%;
     
 }
