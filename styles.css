@@ -27,7 +27,6 @@ nav {
     padding-top: 20px;
     text-decoration: none;
     list-style: none;
-    
 
 }
 
@@ -100,12 +99,9 @@ a {
     white-space: nowrap;
     padding-top: 1px;
     cursor: pointer;
+    justify-content: space-between;
 }
 
-a:hover{
-    color:#0a0a0a;
-
-}
 /* End of navbar styling */
 
 /* START styling homepage home.html */
@@ -137,9 +133,9 @@ h1{
     /* overflow: hidden; */
     transition: height .2s ease;
 }
-/* .wrapper .login-form {
+.wrapper .login-form {
     display: none;
-} */
+}
 
 .wrapper .form-box register {
     position: absolute;
@@ -154,7 +150,7 @@ h1{
     right: 0;
     width: 45px;
     height: 45px;
-    background: #162938;
+    background: black;
     font-size: 2em;
     color: #fff;
     display: flex;
@@ -172,7 +168,7 @@ h1{
 
 .login-form h2{
     font-size: 2em;
-    color: #162938;
+    color: black;
     text-align: center;
 }
 
@@ -180,7 +176,7 @@ h1{
     position: relative;
     width: 100%;
     height: 50px;
-    border-bottom: 2px solid #162938;
+    border-bottom: 2px solid black;
     margin: 30px 0;
 }
 
@@ -190,7 +186,7 @@ h1{
     left: 5px;
     transform: translateY(-100%);
     font-size: 1em;
-    color: #162938;
+    color: black;
     font-weight: 500;
     pointer-events: none;
 }
@@ -202,7 +198,7 @@ h1{
     border: none;
     outline: none;
     font-size: 1em;
-    color: #162938;
+    color: black;
     font-weight: 600;
     padding: 0 35px 0 5px;
     /* transition: 5s; */
@@ -212,13 +208,13 @@ h1{
     position: absolute;
     right: 8px;
     font-size: 1.2em;
-    color: #162938;
+    color: black;
     line-height: 57px;
 }
 
 .remember-me {
     font-size: .9em;
-    color: #162938;
+    color: black;
     font-weight: 500;
     margin: -15px 0 15px;
     display: flex;
@@ -226,11 +222,11 @@ h1{
 }
 
 .remember-me label input {
-    accent-color: #162938;
+    accent-color: black;
     margin-right: 3px;
 }
 .remember-me a{
-    color: #162938;
+    color: black;
     text-decoration: none;
 }
 .remember-me a:hover{
@@ -239,7 +235,7 @@ h1{
 .btn {
     width: 100%;
     height: 45px;
-    background: #162938;
+    background: black;
     border: none;
     outline: none;
     border-radius: 6px;
@@ -249,15 +245,16 @@ h1{
     color: #fff;
 
 }
+
 .login-register {
     font-size: .9em;
-    color-scheme: #162938;
+    color-scheme: black;
     text-align: center;
     font-weight: 500;
     margin: 25px 0 10px;
 }
 .login-register p a {
-    color: #162938;
+    color: black;
     text-decoration: none;
     font-weight: 600;
 }
