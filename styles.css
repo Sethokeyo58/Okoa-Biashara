@@ -133,11 +133,16 @@ h1{
     /* overflow: hidden; */
     transition: height .2s ease;
 }
-.wrapper .login-form {
+/* .wrapper .login-form {
     display: none;
-}
+} */
+ .wrapper.active.login-form {
+    transition: none;
+    transform: translateX(-400px);
 
-.wrapper .form-box register {
+ }
+
+.wrapper .form-box.register {
     position: absolute;
     transform: translateX(400px);
 }
@@ -184,11 +189,15 @@ h1{
     position: absolute;
     top: 10px;
     left: 5px;
-    transform: translateY(-100%);
+    transform: translateY(-50%);
     font-size: 1em;
     color: black;
     font-weight: 500;
     pointer-events: none;
+}
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: -5px;
 }
 
 .input-box input{
@@ -201,7 +210,7 @@ h1{
     color: black;
     font-weight: 600;
     padding: 0 35px 0 5px;
-    /* transition: 5s; */
+    transition: 5s;
 }
 
 .input-box .icon {
@@ -336,6 +345,29 @@ footer{
     justify-content: space-between;
 }
 
-.hr span{
-}
 /* End styling footer */
+
+/* start styling forms.html */
+.form-app {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    justify-items: center;
+    
+}
+.personal-details{
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+
+}
+.personal-details input {
+    padding: 6px 20px;
+    justify-items: auto;
+    justify-content: space-between;
+
+}
+
+
+/* End styling forms.html */
+@media screen and (max)

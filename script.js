@@ -1,11 +1,24 @@
-const wrapper = document.querySelector('.wrapper');
-const loginLink = document.querySelector('.login-link');
-const registerLink = document.querySelector('.register-link');
+// Show login form by default
+document.querySelector('.login-form').classList.add('active');
 
-registerLink.addEventListener('click', ()=>{
-    wrapper.classList.add('active');
+// Toggle to register
+document.querySelector('.register-link').addEventListener('click', function(e) {
+  e.preventDefault();
+  document.querySelector('.login-form').classList.remove('active');
+  document.querySelector('.form-box.register').classList.add('active');
 });
 
-loginLink.addEventListener('click', ()=>{
-    wrapper.classList.remove('active');
+// Toggle to login
+document.querySelector('.login-link').addEventListener('click', function(e) {
+  e.preventDefault();
+  document.querySelector('.form-box.register').classList.remove('active');
+  document.querySelector('.login-form').classList.add('active');
+});
+
+// Optional: handle form submissions (demo only)
+document.querySelectorAll('form').forEach(form => {
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    alert("Form submitted successfully!");
+  });
 });
