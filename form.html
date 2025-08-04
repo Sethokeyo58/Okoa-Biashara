@@ -17,21 +17,19 @@
                 <span class="okoa">Okoa Biashara</span>
             </a>
             <ul>
-                <li><a href="home.html">Home</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="terms.html">Terms & Conditions</a></li>
-                <li><a href="form.html">Loan Application Form</a></li>
+                <li><a href="form.html">Loan Form</a></li>
             </ul>
-            <button>Login</button>
+            <button class="btnLogin-popup">Login</button>
         </nav>
     </div>
     <div class="form-app">
         <form action="submit">
             <h1 class="form-title">Loan Application Form</h1>
             <div class="personal-details">
-                <h3>Personal details</h3>
+                <h3><u>Personal details</u></h3>
                 <label for="username">First Name:</label>
                 <input type="text" name="" id="" placeholder="Enter First Name" required>
                 <label for="username">Second Name:</label>
@@ -44,42 +42,135 @@
                 <input type="radio" id="female" name="gender" value="female">
                 <label for="female">Female</label><br><br>
                 <label for="number">ID Number:</label>
-                <input type="number" minlength="6" maxlength="12" name="" id="" placeholder="Enter ID Number">
+                <input type="number" name="" id="" placeholder="Enter ID Number">
                 <label for="username">Age:</label>
-                <input type="number" name="" id="" placeholder="Enter Agex">
+                <input type="number" name="" id="" placeholder="Enter Age">
                 <label for="date">Date Of Birth</label>
-                <input type="date" name="" id="">
+                <input type="date" name="" id=""><br><br>
+                <label for="number">Primary Phone Number:</label>
+                <input type="number" name="" id="" placeholder="Enter Primary Number">
+                <label for="number">Secondary Phone Number:</label>
+                <input type="number" name="" id="" placeholder="Enter Secondary Number"><br><br>
+                <label for="sex">Marital Status:</label>
+                <input type="radio" id="Married" name="Marital" value="Married">
+                <label for="male">Married</label>
+                <input type="radio" id="Married" name="Marital" value="Not Married">
+                <label for="Not married">Not married</label><br><br>
+               <p><em> (Fill this section only if married)</em></p>
+               <label for="username">Partner`s First Name:</label>
+                <input type="text" name="" id="" placeholder="Enter First Name" required>
+                <label for="username">Second Name:</label>
+                <input type="text" name="" id="" placeholder="Enter Second name" required>
+                <label for="username">Family Name:</label>
+                <input type="text" name="" id="" placeholder="Enter Family name"> <br><br>
+                <label for="number">Primary Phone Number:</label>
+                <input type="number" name="" id="" placeholder="Enter Primary Number">
+                <label for="number">ID Number:</label>
+                <input type="number" name="" id="" placeholder="Enter ID Number">
+                <label for="username">Age:</label>
+                <input type="number" name="" id="" placeholder="Enter Age">
+
+
+
+
                 <hr>
 
             </div>
             <div class="business-details">
-                <h3>Business Details</h3>
+                <h3><u>Business Details </u> </h3>
                 <P><em>(You must fill all the fields in this section)</em></P>
-
+                
                 <label for="text">Business Name:</label>
                 <input type="text" name="" id="" placeholder="">
                 <label for="Location">Business Location:</label>
                 <input type="text" name="" id="" placeholder="Enter Location" required>
                 <label for="">Period Of Business:</label>
                 <input type="text" name="" id="" placeholder="In months e.g 6months"><br>
-                <label for="username">Family Name:</label>
-                <input type="text" name="" id="" placeholder="Enter Family name">
-                <label for="username">Family Name:</label>
-                <input type="text" name="" id="" placeholder="Enter Family name">
+                <label for="username">Daily Minimum Income:</label>
+                <input type="text" name="" id="" placeholder="Ksh">
+                <label for="username">Daily Maximum Income:</label>
+                <input type="text" name="" id="" placeholder="Ksh">
             </div>
+            <div class="loan-qualification">
+                <h3><u>Loan Qualification And Repayment Plan</u></h3>
+                <p><em>(10% Inerest will be charged on the Loan)</em></p>
+                <p><strong>Note:</strong><em>You given 7 days from the day your loan is approved, before you can start paying back the loan</em></p>
+                <label for="text">Amount Qualified:</label>
+                <input type="text" name="" id="" placeholder="">
+                <label for="Location">Enter Amount You Need:</label>
+                <input type="text" name="" id="" placeholder="" required>
+                <label for="">Repayment Amount:</label>
+                <input type="text" name="" id="" placeholder=""><br>
+                <label for="username">Daily Payment Amount:</label>
+                <input type="text" name="" id="" placeholder="Ksh">
+                <label for="username">Number Of Payment Days :</label>
+                <input type="text" name="" id="" placeholder="">
+                <div>
+                    <label for="Mode">Deposit Account</label>
+                    <select name="message" id="message">
+                        <option value="Select">-Select-</option>
+                        <option value="method">Bank</option>
+                        <option value="method">Phone Number</option>
 
-            <div id="radio-buttons">
 
+
+                    </select>
+                </div><br>
+                <label for="username"> Enter bank Account/Phone Number:</label>
+                <input type="text" name="" id="" placeholder="">
             </div>
-            <div>
-
+                <button type="submit">Apply Loan</button>
             </div>
 
 
 
         </form>
     </div>
+    <footer>
+        <div class="row">
+            <div class="col">
+                <img src="images/Okoa Biashara logo.png" alt="logo" class="logo">
+                <p>Okoa Biashara</p>
+            </div>
+            <div class="col">
+                <h3>Head Office</h3>
+                <p>Nairobi</p>
+                <p>Tom Mboya Street</p>
+                <p>Nyandarua House</p>
+                <i class="fa-solid fa-envelope"></i>
+                <p>okoabiashara@gmail.com</p>
+                <p>+254758477179</p>
 
+            </div>
+            <div class="col">
+
+                <ul>
+                    <h3>Links</h3>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="terms.html">Terms & Conditions</a></li>
+                    <li><a href="form.html">Loan Application Form</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <ul>
+                    <h3>Follow-us</h3>
+                    <li><a href=""><i class="fa-brands fa-square-facebook"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-tiktok"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-whatsapp"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-facebook-messenger"></i></a></li>
+                </ul>
+            </div>
+        </div> 
+        <hr class="hr">
+        <span>&copy;2025, Okoa Biashara<sup>TM</sup>. All rights reserved.</span>
+    </footer>
+<script src="form.js"></script>
 </body>
 
 </html>

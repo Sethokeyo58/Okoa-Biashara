@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Okoa Biashara</title>
     <link rel="stylesheet" href="styles.css">
-    
+
 </head>
+
 <body>
     <div class="navbar">
         <nav>
@@ -15,16 +17,120 @@
                 <span class="okoa">Okoa Biashara</span>
             </a>
             <ul>
-                <li><a href="home.html">Home</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="terms.html">Terms & Conditions</a></li>
-                <li><a href="form.html">Loan Application Form</a></li>
+                <li><a href="form.html">Loan Form</a></li>
             </ul>
-            <button>Login</button>
+            <button class="btnLogin-popup">Login</button>
         </nav>
     </div>
+       
+    <!-- Contact Us Section -->
+    <div>
+        <h1>Contact Us</h1>
+        <p><em> </em></p>
+        <p>Contact for any questions, challenges,
+            complaints or reviews on our services.</p>
+        <div>
+            <h2 class="">Our official Contacts</h2>
+            <p class=""><Em>Tel: +254758477179 Email:
+                    okoabiashara@gmail.com</Em></p>
+        </div>
+
+        <div>
+            <form action="#" method="POST">
+                <p>Message Us</p><br>
+                <div>
+                    <div>
+                        <label for="name">Full Name</label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                    <div>
+                        <label for="date">Date</label>
+                        <input type="Date" Id="dob" name="dob" required required>
+                    </div>
+                    <div>
+                        <label for="email">Email
+                            Address</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div>
+                        <label for="subject">Phone Number:</label>
+                        <input type="text" name="subject" id="subject" required>
+                    </div>
+                </div>
+                <div>
+                    <label for="Mode">Reason For Your Message</label>
+                    <select name="message" id="message">
+                        <option value="Select">-Select-</option>
+                        <option value="method">Loan Application</option>
+                        <option value="method">Challenge Accessing Loan</option>
+                        <option value="method">Problems with the platform</option>
+                        <option value="method">Issues receiving Loan</option>
+                        <option value="method">Other</option>
+
+
+                    </select>
+                </div><br>
+
+                <div class="mb-6">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="4" required></textarea>
+                </div>
+                <div>
+                    <button type="submit">Send message</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="row">
+            <div class="col">
+                <p>Okoa Biashara</p>
+                <img src="images/Okoa Biashara logo.png" alt="logo" class="logo">
+
+            </div>
+            <div class="col">
+                <h3>Head Office</h3>
+                <p>Nairobi</p>
+                <p>Tom Mboya Street</p>
+                <p>Nyandarua House</p>
+                <i class="fa-solid fa-envelope"></i>
+                <p>okoabiashara@gmail.com</p>
+                <p>+254758477179</p>
+
+            </div>
+            <div class="col">
+
+                <ul>
+                    <h3>Links</h3>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="terms.html">Terms & Conditions</a></li>
+                    <li><a href="form.html">Loan Application Form</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <ul>
+                    <h3>Follow-us</h3>
+                    <li><a href=""><i class="fa-brands fa-square-facebook"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-tiktok"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-whatsapp"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-facebook-messenger"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <hr class="hr">
+        <span>&copy;2025, Okoa Biashara<sup>TM</sup>. All rights reserved.</span>
+    </footer>
 
 </body>
+
 </html>
